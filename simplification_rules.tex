@@ -1,0 +1,69 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Simplification Rules}
+\author{gizemsungu }
+\date{December 2020}
+
+\begin{document}
+
+\maketitle
+
+\section{RULES}
+
+The set of the simplification rules which is called RULES has the following transformations:
+Let i and j be the row and column indices of a symbolic matrix, or vice versa. Each transformation is formulated as "the existing expression $\Rightarrow$ the replaced expression".
+\begin{itemize}
+	
+	\item[1.] (i = $n_1$) \& (i = $n_2$) $\Rightarrow$ false where $n_1 \neq n_2$ and $n_1, n_2 \in$ N
+	
+	\item[2.] (i = n) \& (i $\neq$ n) $\Rightarrow$ false where n $\in$ N
+	
+	\item[3.] (i = j) \& (i $\neq$ j) $\Rightarrow$ false
+	
+	\item[4.] (i $\neq$ n $\in$ N) \& (i $\neq$ n $\in$ N) $\Rightarrow$ (i $\neq$ n $\in$ N) where n $\in$ N
+	
+	\item[5.] (i = n) \& (i = n) $\Rightarrow$ (i = n) where n $\in$ N
+	
+	\item[6.] (i $> n_1$) \& (i $> n_2$) $\Rightarrow$ (i $>$ max($n_1, n_2$) where $n_1 \neq n_2$ and $n_1, n_2 \in$ N
+	
+	\item[7.] (i $<$ $n_1$) \& (i $<$ $n_2$) $\Rightarrow$ (i $<$ min($n_1, n_2$) where $n_1 \neq n_2$ and $n_1, n_2 \in$ N
+	
+	
+	\item[8.] (i $\leq$ $n_1$) \& (i $\leq$ $n_2$) $\Rightarrow$ (i $\leq$ min($n_1, n_2$) where $n_1 \neq n_2$ and $n_1, n_2 \in$ N
+	
+	\item[9.] (i $\geq$ $n_1$) \& (i $\geq$ $n_2$) $\Rightarrow$ (i $\geq$ max($n_1, n_2$) where $n_1 \neq n_2$ and $n_1, n_2 \in$ N
+	
+	
+	\item[10.] (i $\leq$ $n_1$) \& (i $<$ $n_2$) $\Rightarrow$ (i $\leq$ min($n_1, n_2-1$) where $n_1 \neq n_2$ and $n_1, n_2 \in$ N
+	
+	\item[11.] (i $\geq$ $n_1$) \& (i $>$ $n_2$) $\Rightarrow$ (i $\geq$ max($n_1, n_2$ - 1) where $n_1 \neq n_2$ and $n_1, n_2 \in$ N
+	
+	\item[12.] (i $< n_1$) \& (i $\leq n_2$) $\Rightarrow$ (i $\leq$ min($n_1-1, n_2$) where $n_1 \neq n_2$ and $n_1, n_2 \in$ N
+	
+	\item[13.] (i $>$ $n_1$) \& (i $\geq$ $n_2$) $\Rightarrow$ (i $\geq$ max($n_1-1, n_2$) where $n_1 \neq n_2$ and $n_1, n_2 \in$ N
+	
+	
+	\item[14.] (i = j - $n_1$) \& (i = j- $n_2$) $\Rightarrow$ false where $n_1 \neq n_2$ and $n_1, n_2 \in$ N
+	
+	\item[15.] (i = j + $n_1$) \& (i = j + $n_2$) $\Rightarrow$ false where $n_1 \neq n_2$ and $n_1, n_2 \in$ N
+	
+	\item[16.] (i = j - $n_1$) \& (i = j + $n_2$) $\Rightarrow$ false where $n_1 \neq n_2$ and $n_1, n_2 \in$ N
+	
+	\item[17.] (i = j + $n_1$) \& (i = j - $n_2$) $\Rightarrow$ false where $n_1 \neq n_2$ and $n_1, n_2 \in$ N
+	
+	\item[18.] (i = j) \& (i = n) $\Rightarrow$ (i = n) \& (j = n) where n $\in$ N
+	
+	\item[19.] (i = j) \& (j = n) $\Rightarrow$ (i = n) \& (j = n) where n $\in$ N
+	
+	\item[20.] (i = n) \& (i = j) $\Rightarrow$ (i = n) \& (j = n) where n $\in$ N
+	
+	\item[21.] (j = n) \& (i = j) $\Rightarrow$ (i = n) \& (j = n) where n $\in$ N
+	
+	\item[22.] (i = $n_1 \times$ j) \& (i = $n_2 \times$ j) $\Rightarrow$ false where $n_1 \neq n_2$ and $n_1, n_2 \in$ N
+	
+\end{itemize}
+
+
+\end{document}
+

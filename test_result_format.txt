@@ -1,0 +1,138 @@
+========MATRIX A1============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX A2============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX A3============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX A4============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX A5============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX A6============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX A7============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX A8============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX A9============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX B1============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX B2============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX B3============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX B4============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX B5============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX B6============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX B7============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX B8============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX B9============
+print the matrix
+List each tuple (value, condition)
+
+========MATRIX A1 + B1 = C1 ============
+print the matrix
+List each tuple (value, condition)
+Time consumed (in seconds):
+
+========MATRIX A2 + B2 = C2 ============
+print the matrix
+List each tuple (value, condition)
+Time consumed (in seconds):
+
+========MATRIX A3 + B3 = C3 ============
+print the matrix
+List each tuple (value, condition)
+Time consumed (in seconds):
+
+========MATRIX A4 + B4 = C4 ============
+print the matrix
+List each tuple (value, condition)
+Time consumed (in seconds):
+
+========MATRIX A5 * B5 = C5 ============
+print the matrix
+List each tuple (value, condition)
+Time consumed (in seconds):
+
+========MATRIX A6 * B6 = C6 ============
+print the matrix
+List each tuple (value, condition)
+Time consumed (in seconds):
+
+========MATRIX A7 * B7 = C7 ============
+print the matrix
+List each tuple (value, condition)
+Time consumed (in seconds):
+
+========MATRIX A8 * B8 = C8 ============
+print the matrix
+List each tuple (value, condition)
+Time consumed (in seconds):
+
+========MATRIX A9 * B9 = C9 ============
+print the matrix
+List each tuple (value, condition)
+Time consumed (in seconds):
+
+========MATRIX C1 + C2 = D1 ============
+print the matrix
+List each tuple (value, condition)
+Time consumed (in seconds):
+
+========MATRIX C3 + C4 = D2 ============
+print the matrix
+List each tuple (value, condition)
+Time consumed (in seconds):
+
+========MATRIX C5 + C6 = D3 ============
+print the matrix
+List each tuple (value, condition)
+Time consumed (in seconds):
+
+========MATRIX C7 + C8 = D4 ============
+print the matrix
+List each tuple (value, condition)
+Time consumed (in seconds):
+
+
